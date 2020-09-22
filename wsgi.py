@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
-def get(self):
+def get():
         return jsonify()
 
 if __name__ == "__main__": 
